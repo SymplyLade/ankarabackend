@@ -1,0 +1,43 @@
+# fastapi
+# uvicorn
+# langchain
+# langchain-google-genai
+# langchain-community
+# langchain-chroma
+# sentence-transformers
+# PyPDF2
+# pypdf
+# python-multipart
+# python-dotenv
+# pydantic
+# pydantic-settings
+# google-generativeai
+# chromadb
+# langchain_huggingface
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.10.0+cpu
+torchvision==0.25.0+cpu
+torchaudio==2.10.0+cpu
+
+
+fastapi
+uvicorn
+langchain
+langchain-google-genai
+langchain-community
+langchain-chroma
+sentence-transformers
+langchain-huggingface
+
+chromadb
+
+pypdf            # better than PyPDF2 (you don't need both)
+python-multipart
+python-dotenv
+
+pydantic
+pydantic-settings
+
+google-generativeai
